@@ -1,0 +1,55 @@
+'''
+    - Dados da universidade
+    - Título do trabalho
+    - Nome dos integrantes
+    - Ementa
+        - Conteúdo textual
+            - Agradecimentos
+            - Resumo
+            - Introdução
+            - Problemas identificados
+            - Objetivos
+            - Dataset
+            - Pesquisas relacionadas
+            - Continuidade no projeto
+        - Projeto
+            - Importação das bibliotecas
+            - Instalação de dependências
+            - Importação do dataset
+                - Head
+                - Dimensionalidade
+                - Tipo dos campos
+                - Details (info)
+            - Análise exploratória
+                - Contagem de sentenças por classificação
+                - Redefinição doa nomenclatura das colunas
+                - Redefinição da coluna de classificação (0 e 1)
+                - Quantidade de caracteres por sentença
+                - Palavras mais comuns por categoria
+                - Verificação de sentenças null e blank
+            - Técnicas de Pré Processamento
+                - Workflow NLP (criar um novo fluxograma)
+                - WordCloud
+                - Tokenization
+                - Removendo stop words e pontuação
+                - POS Tags
+                - Stemming
+                - Lemmatization
+                - TF IDF
+                - Redução de dimensionalidade (SVD)
+                - Reconhecimento de Entidades Nomeadas (NER)
+                - Identificação de relacionamentos
+                - Resolução de coerência
+            - Modelo e Classificação
+                - BOW (CBOW, Glove) / Word2Vec
+                - LSTM
+                - Multinomial Naive Bayes
+                - Gaussian Naive Bayes
+                - SVM
+                - Classification Reports
+                - Teste de hipótese de Mc Nemmar
+                - Mensuração de Overffiting
+                - Geração dos modelos (armazenamento)
+        - Continuidade do Projeto
+            - SPA para predição de discursos de ódio
+'''
